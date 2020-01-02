@@ -11,9 +11,9 @@ Empieza el año y con él este proyecto para difundir la programación funcional
 
 ## Puedes encontrar toda la información de esta serie en:
 
-* Posts periódicos en medium
-* El glosario de términos en donde definiremos los "palabros" utilizados
-* Ejercicios en codepen
+* [Posts periódicos en medium](https://medium.com/@maurice.ronet.dominguez)
+* [El glosario de términos en donde definiremos los "palabros" utilizados](https://github.com/madoos/functionalJS-learning-path/blob/master/JARGON.md#Funciones-como-ciudadanos-de-primer-orden)
+* [Ejercicios en codepen](https://codepen.io/collection/ANwWdv)
 * Al final de cada post te dejaré aburridos papers para que profundices de forma teórica práctica.
 
 ## Entregas

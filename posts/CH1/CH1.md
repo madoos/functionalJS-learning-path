@@ -5,7 +5,7 @@ Hola lector anónimo!
 Empieza el año y con él este proyecto para difundir la programación funcional en Javascript.
 
 En esta primera entrada determinaremos nuestro “flow” para esta serie de posts,
-el alcance de los contenidos, responderemos ¿Por qué te debería  interesar la programación funcional? ¿Por qué programación funcional en Javascript? ¿Cuál es la promesa de este paradigma? y definiremos de “forma filosófica” y desenfadada que es la programación funcional.
+el alcance de los contenidos, responderemos ¿por qué te debería  interesar la programación funcional? ¿por qué programación funcional en Javascript? ¿cuál es la promesa de este paradigma? y definiremos de “forma filosófica” y desenfadada que es la programación funcional.
 
 
 ## ¿Cuál será nuestro flow?
@@ -475,7 +475,7 @@ Para afinzar lo aprendido pudes:
 Functional Programming
 Matters](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf)
 * Puedes ver la solucions funcional del ejercico sin librerías en [codepen](https://codepen.io/madoos/pen/WNbZLoL) 
-* Dar un vistazo a la lista de "palabros" aprendidas en el día de hoy en nuestro bonito glosario
+* Dar un vistazo a la lista de "palabros" aprendidas en el día de hoy en nuestro [bonito glosario]((https://github.com/madoos/functionalJS-learning-path/blob/master/JARGON.md#Funciones-como-ciudadanos-de-primer-orden))
 * Intenta implementar tu propia solición utilizando las "reglas del juego" que propone este paradigma.
 
 En la próxima entrada explicaré la composición implementada desde la perspectiva funcional, empezaremos a desarrollar nuestra librería de utilidades usando todo lo aprendido (usando como pretexto el ejercicio de este capítulo).
