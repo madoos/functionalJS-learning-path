@@ -4,7 +4,9 @@
   "description": "functional JS learning path",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose",
+    "tdd": "npm run test -- --watch"
+
   },
   "keywords": [],
   "author": {
@@ -14,5 +16,8 @@
   "license": "ISC",
   "dependencies": {
     "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
   }
 }
