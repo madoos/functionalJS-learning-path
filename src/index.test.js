@@ -5,7 +5,9 @@ const {
     flip,
     compose2P,
     identityP,
-    composeP
+    composeP, 
+    curry,
+    __
 } = require('./')
 
 describe('compose2 test', () => {
@@ -91,3 +93,24 @@ describe('composeP test', () => {
         return f([1,5,2,3]).then(n => expect(n).toEqual(51))
     })
 })
+
+describe('curry test', () => {
+    const add3 = curry((a, b, c) => a + b + c)
+    const collect = curry((a, b, c) => [a, b, c])
+
+    test('curry should do partial application', () => {
+        expect(add3(1)(2)(3)).toEqual(6)
+        expect(add3(1, 2)(3)).toEqual(6)
+        expect(add3(1, 2, 3)).toEqual(6)
+        expect(add3()).toBeInstanceOf(Function)
+    })
+
+    test('curry should do partial application whit placeholder', () => {
+        expect(collect(1, 2, 3)).toEqual([1, 2, 3])
+        expect(collect(__, 2, 3)(1)).toEqual([1, 2, 3])
+        expect(collect(1,__, 3)(2)).toEqual([1, 2, 3])
+        expect(collect(1, 2, __)(3)).toEqual([1, 2, 3])
+        expect(collect()).toBeInstanceOf(Function)
+    })
+})
+
